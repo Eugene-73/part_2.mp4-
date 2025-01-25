@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Arial-Regular';
+    src: url('../fonts/Arial-Regular.woff') format("woff"),
+    url('../fonts/Arial-Regular.ttf') format("ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Arial-Bold';
+    src: url('../fonts/Arial-BoldMT.woff') format("woff"),
+    url('../fonts/Arial-BoldMT.ttf') format("ttf");
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+body {
+    font-family: Arial-Bold, sans-serif;
+    color: white;
+    background-color: #121212;
+}
+
+
+.media-container {
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #444;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+
+}
+
+h1 {
+    margin-top: 100px;
+    margin-bottom: 45px;
+    font-size: 36px;
+    line-height: 120%;
+    text-align: center;
+   display: block;
+
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+video {
+    max-width: 100%;
+}
+
+.button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    font-family: Arial-Regular, sans-serif;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #e64a19;
+}
+
